@@ -27,6 +27,8 @@ public class CreateLargeFile {
 			crf.readFileWithoutNIO(fileObject);
 			crf.readFileWithFixedSizeBuffer(fileObject);
 			crf.readFileWithMappedByteBuffer(fileObject);
+			
+			System.out.println("File Read");
 
 		} catch (Exception e) {
 			// TODO: handle exception
